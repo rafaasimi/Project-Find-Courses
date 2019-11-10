@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Encontrar Cursos - Página Principal</title>
+	<meta name="description" content="Encontre de maneira fácil a faculdade mais próxima de você de acordo com o curso que você procura.">
+	<meta name="keywords" content="Encontrar cursos, faculdades, graduação, ensino presencial, ensino a distância">
+	<meta name="language" content="Portuguese">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<div class="nav-container">
+					<a href="index.html">
+						<img id="logo" src="img/logo_course.png"
+							alt="Logo Encontrar Cursos, uma mochila com caderno e lápis dentro.">
+					</a>
+
+					<i class="fas fa-bars btn-menumobile"></i>
+					<ul>
+						<li><a href="#">Principal</a></li>
+						<li><a href="sendcourses.html">Enviar cursos</a></li>
+						<li><a href="#">Contato</a></li>
+						<li><a href="#">Trabalhe conosco</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="main-banner">
+				<div id="search-form">
+					<h1>Uma maneira fácil de pesquisar cursos disponíveis em faculdades e outras instituições</h1>
+					<p>Descubra em quais faculdades estão disponiveis cursos na área que você quer seguir</p>
+					<form>
+						<input type="text" name="course" placeholder="Digite o curso">
+						<select name="region">
+							<option value="">Todos os estados</option>
+						</select>
+						<select name="area">
+							<option value="">Área</option>
+							<input type="submit" value="Pesquisar">
+						</select>
+					</form>
+				</div>
+			</div>
+		</header>
+		<main id="lastcourses-container" class="wrapper">
+			<h1>Últimos cursos enviados</h1>
+			<ul>
+				<li>
+					<a href="#" class="clickarea">
+						<div class="college-box">
+							<img src="img/logounip.png">
+							<div class="college-info">
+								<h3>Ciência da Computação</h3>
+								<p>Graduação</p>
+							</div>
+						</div>
+						<div class="locality">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>Limeira, São Paulo</p>
+						</div>
+						<div class="course-type">
+							<span class="exatas">Exatas</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="clickarea">
+						<div class="college-box">
+							<img src="img/logounippos.png">
+							<div class="college-info">
+								<h3>Segurança da Informação</h3>
+								<p>Pós-Graduação</p>
+							</div>
+						</div>
+						<div class="locality">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>Campinas, São Paulo</p>
+						</div>
+						<div class="course-type">
+							<span class="exatas">Exatas</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="clickarea">
+						<div class="college-box">
+							<img src="img/logounipead.png">
+							<div class="college-info">
+								<h3>Biomedicina</h3>
+								<p>Graduação</p>
+							</div>
+						</div>
+						<div class="locality">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>Ensino a distância</p>
+						</div>
+						<div class="course-type">
+							<span class="biologicas">Biológicas</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="clickarea">
+						<div class="college-box">
+							<img src="img/logounipead.png">
+							<div class="college-info">
+								<h3>Marketing</h3>
+								<p>Pós-Graduação</p>
+							</div>
+						</div>
+						<div class="locality">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>Ensino a distância</p>
+						</div>
+						<div class="course-type">
+							<span class="humanas">Humanas</span>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="btncourses-container">
+				<a href="#" class="btn-courses">Ver mais cursos</a>
+			</div>
+		</main>
+		<section id="sendcourses-container">
+			<div id="sendcourses-inner" class="wrapper">
+				<h2>Envie cursos que poderão ser vistos por futuros alunos</h2>
+				<p>Vivamus nec efficitur nisi. Vivamus ullamcorper ullamcorper elit. Cras ut augue ac purus suscipit
+					consequat sit amet fringilla orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<a href="#" class="light-btn">Enviar curso</a>
+			</div>
+		</section>
+		<section id="status-container" class="wrapper">
+			<h2 class="title-center">Veja nossos dados</h2>
+			<p class="p-center">Aenean dictum vitae orci vel tincidunt. Sed scelerisque magna varius, viverra lacus ac,
+				sodales urna. Duis pretium bibendum est, id ultrices neque volutpat vel. Phasellus sed feugiat magna.
+			</p>
+			<div>
+				<div class="status-box">
+					<span class="status-qtd">25</span>
+					<p class="status-text">Cursos cadastrados</p>
+				</div>
+				<div class="status-box">
+					<span class="status-qtd">1005</span>
+					<p class="status-text">Usuários cadastros</p>
+				</div>
+				<div class="status-box">
+					<span class="status-qtd">35</span>
+					<p class="status-text">Unidades participantes</p>
+				</div>
+				<div class="status-box">
+					<span class="status-qtd">983</span>
+					<p class="status-text">Alunos matriculados</p>
+				</div>
+			</div>
+		</section>
+		<section id="testmony-container">
+			<div class="wrapper">
+				<h2>Veja o que os candidatos dizem</h2>
+				<p class="p-center">Aenean dictum vitae orci vel tincidunt. Sed scelerisque magna varius, viverra lacus
+					ac, sodales urna. Duis pretium bibendum est, id ultrices neque volutpat vel. Phasellus sed feugiat
+					magna.</p>
+				<div class="testmony-box">
+					<p class="testmony-msg">Vivamus nec efficitur nisi. Vivamus ullamcorper ullamcorper elit. Cras ut
+						augue ac purus suscipit consequat sit amet fringilla orci. Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit.</p>
+					<img src="img/avatar1.png">
+					<p class="testmony-name">Rafael</p>
+				</div>
+				<div class="testmony-box">
+					<p class="testmony-msg">Vivamus nec efficitur nisi. Vivamus ullamcorper ullamcorper elit. Cras ut
+						augue ac purus suscipit consequat sit amet fringilla orci. Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit.</p>
+					<img src="img/avatar2.png">
+					<p class="testmony-name">Maria</p>
+				</div>
+				<div class="testmony-box">
+					<p class="testmony-msg">Vivamus nec efficitur nisi. Vivamus ullamcorper ullamcorper elit. Cras ut
+						augue ac purus suscipit consequat sit amet fringilla orci. Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit.</p>
+					<img src="img/avatar3.png">
+					<p class="testmony-name">João</p>
+				</div>
+				<div class="testmony-box">
+					<p class="testmony-msg">Vivamus nec efficitur nisi. Vivamus ullamcorper ullamcorper elit. Cras ut
+						augue ac purus suscipit consequat sit amet fringilla orci. Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit.</p>
+					<img src="img/avatar4.png">
+					<p class="testmony-name">Alice</p>
+				</div>
+			</div>
+		</section>
+		<section id="blog-container" class="wrapper">
+			<h2 class="title-center">Últimos artigos do nosso blog</h2>
+			<p class="p-center">Descubra os tópicos que estão em alta no momento, leia alguns de nossos posts.
+			</p>
+			<div class="article-box">
+				<img src="img/blog1.jpg" alt="Uma mulher em frente ao computador segurando um celular em suas mãos.">
+				<h4><a href="#">Como não perder o foco no momento de estudo?</a></h4>
+				<p class="article-date">12 de Outubro de 2019 | 10 comentários</p>
+				<p class="article-resume">Não importa se é no quarto, na sala ou até mesmo em uma biblioteca: os
+					ambientes silenciosos são os mais propícios para estudar.</p>
+				<a href="#" class="article-btn light-btn">ler post</a>
+			</div>
+			<div class="article-box">
+				<img src="img/blog2.jpg" alt="Uma estudante em frente ao seu computador segurando um lápis.">
+				<h4><a href="#">Saiba como conciliar trabalho e estudo!</a></h4>
+				<p class="article-date">07 de Outubro de 2019 | 33 comentários</p>
+				<p class="article-resume">Saber como conciliar trabalho e estudo é algo mais comum para os brasileiros
+					do que parece. Saiba porque isso é prática.</p>
+				<a href="#" class="article-btn light-btn">ler post</a>
+			</div>
+			<div class="article-box">
+				<img src="img/blog3.jpg" alt="Uma mesa com 3 alunos de engenharia e um projeto aberto.">
+				<h4><a href="#">Onde estão as melhores faculdades de engenharia?</a></h4>
+				<p class="article-date">01 de Outubro de 2019 | 26 comentários</p>
+				<p class="article-resume">Você sonha com uma carreira na área de engenharia? Além de escolher uma das
+					áreas do curso, é importante conhecer as melhores faculdades de engenharia do Brasil.</p>
+				<a href="#" class="article-btn light-btn">ler post</a>
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper">
+				<div class="footer-box">
+					<div class="college-footer">
+						<img style="width: 30%;" src="img/logo_course.png"
+							alt="Logo Encontrar Cursos, uma mochila com caderno e lápis dentro.">
+						<p>Fontes:</p>
+						<p>Código baseado nos projetos de Matheus Battisti (Canal: Hora de Codar).</p>
+						<p>Imagens retiradas do site Pixabay.</p>
+					</div>
+				</div>
+				<div class="footer-box">
+					<div class="articles-footer">
+						<h2>Postagens recentes</h2>
+						<ul class="footer-list footer-article-list">
+							<li>
+								<a href="#">Como não perder o foco no momento de estudo?</a>
+								<span class="article-date">12 de Outubro de 2019</span>
+							</li>
+							<li>
+								<a href="#">Saiba como conciliar trabalho e estudo!</a>
+								<span class="article-date">07 de Outubro de 2019</span>
+							</li>
+							<li>
+								<a href="#">Onde estão as melhores faculdades de engenharia?</a>
+								<span class="article-date">01 de Outubro de 2019</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-box">
+					<h2>Nossas mídias sociais</h2>
+					<ul class="footer-list">
+						<li>
+							<a href="#" title="Ir para Facebook (Link externo)">
+								<i class="fab fa-facebook-square" alt="Ícone do Facebook"></i>
+								<span>Facebook</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" title="Ir para Instagram (Link externo)">
+								<i class="fab fa-instagram" alt="Ícone do Instagram"></i>
+								<span>Instagram</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" title="Ir para Linkedin (Link externo)">
+								<i class="fab fa-linkedin" alt="Ícone do Linkedin"></i>
+								<span>Likedin</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="wrapper">
+					<p>Encontrar Cursos - Copyright 2019</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+
+</html>
