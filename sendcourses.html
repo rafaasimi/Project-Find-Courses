@@ -49,16 +49,14 @@
 						placeholder="Insira a descrição do curso"></textarea>
 				</div>
 				<div class="input-box">
-					<label for="collegename">Nome da faculdade <span class="required"
-							pattern="[a-z\s]+$">*</span></label>
+					<label for="collegename">Nome da faculdade <span class="required">*</span></label>
 					<input type="text" name="college" id="collegename" placeholder="Insira o nome da faculdade">
 				</div>
 				<div class="input-box">
 					<fieldset style="border: none; width: 100%; padding: 0px;">
 						<label for="coursearea">Área do curso <span class="required">*</span></label>
 						<select name="coursetype" id="coursearea">
-							<option value="">Escolha uma opção</option>
-							<legend>Escolha a área do curso</legend>
+							<option value="">Escolha um curso</option>
 							<option value="humanas">Humanas</option>
 							<option value="biologicas">Biologicas</option>
 							<option value="exatas">Exatas</option>
@@ -68,21 +66,20 @@
 				<div class="input-box">
 					<fieldset style="border: none; width: 100%; padding: 0px;">
 						<label for="coursename">Nome do curso <span class="required">*</span></label>
-						<select name="coursetype" id="coursearea">
+						<select name="coursetype" id="coursename">
 							<option value="">Escolha um curso</option>
-							<legend>Escolha o curso</legend>
 							<optgroup label="Exatas">
 								<option value="ciencia-da-computacao">Ciência da Computação</option>
 								<option value="engenharia-civil">Engenharia Civil</option>
 							</optgroup>
 							<optgroup label="Biologicas">
-									<option value="biomedicina">Biomedicina</option>
-									<option value="enfermagem">Enfermagem</option>
-								</optgroup>
-								<optgroup label="Humanas">
-										<option value="Jjrnalismo">Jornalismo</option>
-										<option value="pedagogia">Pedagogia</option>
-									</optgroup>
+								<option value="biomedicina">Biomedicina</option>
+								<option value="enfermagem">Enfermagem</option>
+							</optgroup>
+							<optgroup label="Humanas">
+								<option value="Jjrnalismo">Jornalismo</option>
+								<option value="pedagogia">Pedagogia</option>
+							</optgroup>
 						</select>
 					</fieldset>
 				</div>
@@ -126,19 +123,19 @@
 					<ul class="footer-list">
 						<li>
 							<a href="#" title="Ir para Facebook (Link externo)">
-								<i class="fab fa-facebook-square" alt="Ícone do Facebook"></i>
+								<i class="fab fa-facebook-square"></i>
 								<span>Facebook</span>
 							</a>
 						</li>
 						<li>
 							<a href="#" title="Ir para Instagram (Link externo)">
-								<i class="fab fa-instagram" alt="Ícone do Instagram"></i>
+								<i class="fab fa-instagram"></i>
 								<span>Instagram</span>
 							</a>
 						</li>
 						<li>
 							<a href="#" title="Ir para Linkedin (Link externo)">
-								<i class="fab fa-linkedin" alt="Ícone do Linkedin"></i>
+								<i class="fab fa-linkedin"></i>
 								<span>Likedin</span>
 							</a>
 						</li>
@@ -152,9 +149,11 @@
 			</div>
 		</footer>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
+
 
 </html>
