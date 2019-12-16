@@ -2,71 +2,66 @@
 <html lang="pt-br">
 
 <head>
-	<title>Encontrar Cursos - Cadastrar Cursos</title>
-	<meta name="description"
-		content="Encontre de maneira fácil a faculdade mais próxima de você de acordo com o curso que você procura.">
-	<meta name="keywords"
-		content="Encontrar cursos, faculdades, graduação, ensino presencial, ensino a distância, cadastrar cursos">
-	<meta name="language" content="Portuguese">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Encontrar Cursos - Cadastrar Cursos</title>
+    <meta name="description" content="Encontre de maneira fácil a faculdade mais próxima de você de acordo com o curso que você procura.">
+    <meta name="keywords" content="Encontrar cursos, faculdades, graduação, ensino presencial, ensino a distância, cadastrar cursos">
+    <meta name="language" content="Portuguese">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
-	<div class="container" id="sendcourses">
-		<header>
-			<nav>
-				<div class="nav-container">
-					<a href="index.html">
-						<img id="logo" src="img/logo_course.png"
-							alt="Logo Encontrar Cursos, uma mochila com caderno e lápis dentro.">
-					</a>
+    <div class="container" id="sendcourses">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <a href="index.html">
+                        <img id="logo" src="img/logo_course.png" alt="Logo Encontrar Cursos, uma mochila com caderno e lápis dentro.">
+                    </a>
 
-					<i class="fas fa-bars btn-menumobile"></i>
-					<ul>
-						<li><a href="index.html">Principal</a></li>
-						<li><a href="sendcourses.html">Enviar cursos</a></li>
-						<li><a href="#">Contato</a></li>
-						<li><a href="#">Trabalhe conosco</a></li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-		<main id="sendcourses-container" class="wrapper">
-			<form action="#" method="post">
-				<h1>Preencha com os dados do curso</h1>
-				<div class="input-box">
-					<label for="coursetitle">Título do curso <span class="required">*</span></label>
-					<input type="text" name="coursetitle" id="coursetitle" placeholder="Insira o título do curso">
-				</div>
-				<div class="input-box">
-					<label for='coursedescription'>Descrição do curso <span class="required">*</span></label>
-					<textarea name="coursedescription" id="coursedescription"
-						placeholder="Insira a descrição do curso"></textarea>
-				</div>
-				<div class="input-box">
-					<label for="collegename">Nome da faculdade <span class="required">*</span></label>
-					<input type="text" name="college" id="collegename" placeholder="Insira o nome da faculdade">
-				</div>
-				<div class="input-box">
-					<fieldset style="border: none; width: 100%; padding: 0px;">
-						<label for="coursearea">Área do curso <span class="required">*</span></label>
-						<select name="coursetype" id="coursearea">
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="sendcourses.html">Enviar cursos</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Trabalhe conosco</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main id="sendcourses-container" class="wrapper">
+            <form action="#" method="post">
+                <h1>Preencha com os dados do curso</h1>
+                <div class="input-box">
+                    <label for="coursetitle">Título do curso <span class="required">*</span></label>
+                    <input type="text" name="coursetitle" id="coursetitle" placeholder="Insira o título do curso">
+                </div>
+                <div class="input-box">
+                    <label for='coursedescription'>Descrição do curso <span class="required">*</span></label>
+                    <textarea name="coursedescription" id="coursedescription" placeholder="Insira a descrição do curso"></textarea>
+                </div>
+                <div class="input-box">
+                    <label for="collegename">Nome da faculdade <span class="required">*</span></label>
+                    <input type="text" name="college" id="collegename" placeholder="Insira o nome da faculdade">
+                </div>
+                <div class="input-box">
+                    <fieldset class="fieldset-form">
+                        <label for="coursearea">Área do curso <span class="required">*</span></label>
+                        <select name="coursetype" id="coursearea">
 							<option value="">Escolha um curso</option>
 							<option value="humanas">Humanas</option>
 							<option value="biologicas">Biologicas</option>
 							<option value="exatas">Exatas</option>
 						</select>
-					</fieldset>
-				</div>
-				<div class="input-box">
-					<fieldset style="border: none; width: 100%; padding: 0px;">
-						<label for="coursename">Nome do curso <span class="required">*</span></label>
-						<select name="coursetype" id="coursename">
+                    </fieldset>
+                </div>
+                <div class="input-box">
+                    <fieldset class="fieldset-form">
+                        <label for="coursename">Nome do curso <span class="required">*</span></label>
+                        <select name="coursetype" id="coursename">
 							<option value="">Escolha um curso</option>
 							<optgroup label="Exatas">
 								<option value="ciencia-da-computacao">Ciência da Computação</option>
@@ -77,81 +72,79 @@
 								<option value="enfermagem">Enfermagem</option>
 							</optgroup>
 							<optgroup label="Humanas">
-								<option value="Jjrnalismo">Jornalismo</option>
+								<option value="jornalismo">Jornalismo</option>
 								<option value="pedagogia">Pedagogia</option>
 							</optgroup>
 						</select>
-					</fieldset>
-				</div>
-				<div class="input-box">
-					<input type="submit" name="Enviar">
-				</div>
-			</form>
-		</main>
-		<footer>
-			<div class="wrapper">
-				<div class="footer-box">
-					<div class="college-footer">
-						<img style="width: 30%;" src="img/logo_course.png"
-							alt="Logo Encontrar Cursos, uma mochila com caderno e lápis dentro.">
-						<p>Fontes:</p>
-						<p>Código baseado nos projetos de Matheus Battisti (Canal: Hora de Codar).</p>
-						<p>Imagens retiradas do site Pixabay.</p>
-					</div>
-				</div>
-				<div class="footer-box">
-					<div class="articles-footer">
-						<h2>Postagens recentes</h2>
-						<ul class="footer-list footer-article-list">
-							<li>
-								<a href="#">Como não perder o foco no momento de estudo?</a>
-								<span class="article-date">12 de Outubro de 2019</span>
-							</li>
-							<li>
-								<a href="#">Saiba como conciliar trabalho e estudo!</a>
-								<span class="article-date">07 de Outubro de 2019</span>
-							</li>
-							<li>
-								<a href="#">Onde estão as melhores faculdades de engenharia?</a>
-								<span class="article-date">01 de Outubro de 2019</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="footer-box">
-					<h2>Nossas mídias sociais</h2>
-					<ul class="footer-list">
-						<li>
-							<a href="#" title="Ir para Facebook (Link externo)">
-								<i class="fab fa-facebook-square"></i>
-								<span>Facebook</span>
-							</a>
-						</li>
-						<li>
-							<a href="#" title="Ir para Instagram (Link externo)">
-								<i class="fab fa-instagram"></i>
-								<span>Instagram</span>
-							</a>
-						</li>
-						<li>
-							<a href="#" title="Ir para Linkedin (Link externo)">
-								<i class="fab fa-linkedin"></i>
-								<span>Likedin</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="footer-bottom">
-				<div class="wrapper">
-					<p>Encontrar Cursos - Copyright 2019</p>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="js/scripts.js"></script>
+                    </fieldset>
+                </div>
+                <div class="input-box">
+                    <input type="submit" name="Enviar">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="college-footer">
+                        <img src="img/logo_course.png" alt="Logo Encontrar Cursos, uma mochila com caderno e lápis dentro.">
+                        <p>Fontes:</p>
+                        <p>Código baseado nos projetos de Matheus Battisti (Canal: Hora de Codar).</p>
+                        <p>Imagens retiradas do site Pixabay.</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="articles-footer">
+                        <h2>Postagens recentes</h2>
+                        <ul class="footer-list footer-article-list">
+                            <li>
+                                <a href="#">Como não perder o foco no momento de estudo?</a>
+                                <span class="article-date">12 de Outubro de 2019</span>
+                            </li>
+                            <li>
+                                <a href="#">Saiba como conciliar trabalho e estudo!</a>
+                                <span class="article-date">07 de Outubro de 2019</span>
+                            </li>
+                            <li>
+                                <a href="#">Onde estão as melhores faculdades de engenharia?</a>
+                                <span class="article-date">01 de Outubro de 2019</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Nossas mídias sociais</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#" title="Ir para Facebook (Link externo)">
+                                <i class="fab fa-facebook-square"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Ir para Instagram (Link externo)">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Ir para Linkedin (Link externo)">
+                                <i class="fab fa-linkedin"></i>
+                                <span>Likedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>Encontrar Cursos - Copyright 2019</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
