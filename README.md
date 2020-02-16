@@ -10,4 +10,5 @@ Author: Rafael Simionato Zorzenon
 
 ## References
 The project is based on the website created by Matheus Battisti in the course of HTML and CSS.
+
 "Hora de Codar" Channel: https://www.youtube.com/channel/UCDoFiMhpOnLFq1uG4RL4xag
