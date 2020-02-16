@@ -1,14 +1,13 @@
-# Projeto-Encontrar-Cursos
+# Project - Find Courses
 
-#Descrição
-Site desenvolvido para colocar em prática as diretrizes da W3C no que se diz respeito aos padrões de desenvolvimento web utilizando as linguagens HTML e CSS.
+##Description
+Site developed to put into practice the W3C guidelines regarding web development standards using HTML and CSS languages.
 
-O tema do trabalho é Acessibilidade na web com enfâse em Deficientes Visuais e o objetivo é mostrar as diretrizes da W3C e boas práticas para que os desenvolvedores possam usufruir desse material, melhorando a acessibilidade em seus projetos web.
+The theme of the work is Accessibility on the web with an emphasis on the Visually Impaired and the objective is to show the W3C guidelines and good practices so that developers can take advantage of this material, improving accessibility in their web projects.
 
-#Trabalho Teórico
-Autor: Rafael Simionato Zorzenon
-Disponivel em: [em breve]
+#Theoretical work
+Author: Rafael Simionato Zorzenon
 
-#Referências
-O projeto é baseado no site criado pelo Matheus Battisti no curso de HTML e CSS.
-Canal Hora de Codar - https://www.youtube.com/channel/UCDoFiMhpOnLFq1uG4RL4xag
+##References
+The project is based on the website created by Matheus Battisti in the course of HTML and CSS.
+"Hora de Codar" Channel: https://www.youtube.com/channel/UCDoFiMhpOnLFq1uG4RL4xag
